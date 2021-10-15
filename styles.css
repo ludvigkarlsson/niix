@@ -1,0 +1,108 @@
+header li {
+    font-family: "Montserrat", sans-serif;
+    font-weight:500;
+    font-size:16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header a {
+    font-family: "Montserrat", sans-serif;
+    font-weight:500;
+    font-size:16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header button {
+    font-family: "Montserrat", sans-serif;
+    font-weight:500;
+    font-size:16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    background-color: #24252A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.logo {
+    cursor: pointer;
+    width: 106px;
+}
+
+.navlinks {
+    list-style:none;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:active {
+    color: rgb(221, 1, 1);
+}
+
+.navlinks li a:hover {
+    color: rgb(221, 1, 1);
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgb(221, 1, 1);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 255, 13, 0.8);
+}
+
+
+body {
+    background-color: #d7d9db;
+    text-align: center;
+}
+.huvud {
+    margin: auto;
+    position:relative;
+    padding-top:60px;
+    text-align:left;
+    width:40%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24;
+}
+p a {
+        font-family: "Montserrat", sans-serif;
+        font-weight:500;
+        color: rgb(221, 1, 1);
+}
+
+img {
+    width: 20%;
+}
+
+h1 {
+    font-family: sans-serif; 
+}
+
+.spec-list {
+    margin: auto;
+    width:60%;
+    font-family: "Montserrat", sans-serif;   
+    font-size: 32;
+}
